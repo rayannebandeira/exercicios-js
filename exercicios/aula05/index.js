@@ -7,12 +7,17 @@
 
 // Exercício 1 — classificarIdade
 export function classificarIdade(idade) {
-  if (idade >12 )
+  if (idade > 12 ){
+    return "criança";
+  }else if (idade >= 12<= && 17){
+    return "adolescente";
+  }else{
+  return "adulto"
 }
 
 // Exercício 2 — calcularDesconto
 export function calcularDesconto(preco, percentual) {
-  // escreva seu código aqui
+  
 }
 
 // Exercício 3 — verificarAprovacao
